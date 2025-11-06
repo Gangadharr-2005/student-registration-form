@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
  function isValidEmail(email) {
-    var pattern = /^[a-zA-Z0-9._]+@gmail\.com$/i;
+    var pattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/i;
     return pattern.test(email);
 }
 
